@@ -10,10 +10,7 @@ import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.util.ArrayList;
 import java.util.List;
-/**
- *
- * @author Administrador
- */
+
 public class ComandaDAO {
     public void inserir(Comanda comanda) {
         // Implementação de inserção no banco
@@ -23,4 +20,10 @@ public class ComandaDAO {
         // Implementação para listar comandas
         return new ArrayList<>();
     }
+    
+    public Comanda getComandaAtivaPorMesa(int idMesa) {
+    String sql = "SELECT * FROM comanda WHERE id_mesa = ? AND status = 'ABERTA'";
+    // Implemente a consulta e retorne a comanda ativa
+}
+    
 }

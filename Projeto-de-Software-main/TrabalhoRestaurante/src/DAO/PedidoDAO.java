@@ -5,14 +5,27 @@
 package DAO;
 import beans.Pedido;
 import Restaurante.Conexao;
+import java.sql.Connection;
 
 /**
  *
  * @author guede
  */
 public class PedidoDAO {
+    private Conexao conexao;
+    private Connection conn;
+    
+    public PedidoDAO() {  
+    this.conexao = new Conexao();
+    this.conn = this.conexao.getConexao();
+}
         public void inserir(Pedido pedido) {
-        // Implementação de inserção no banco
+       
     }
-
+        
+    public List<Pedido> getPedidosPorComanda(int idComanda) {
+    String sql = "SELECT * FROM pedido WHERE id_comanda = ?";
+    // Implemente a consulta
+}
+    
 }

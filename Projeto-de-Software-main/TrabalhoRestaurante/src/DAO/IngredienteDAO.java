@@ -2,20 +2,12 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package beans;
+package DAO;
 
 /**
  *
- * @author guede
+ * @author Administrador
  */
-public class Funcionario {
-    private int id;
-
-    public int getId() {
-        return id;
-    }
-
-    public void setId(int id) {
-        this.id = id;
-    }
+public class IngredienteDAO {
+    
 }
