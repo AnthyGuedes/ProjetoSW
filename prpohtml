@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<img src="142349999.jpg" alt="imagem minha" height="50%" width="50%" title="imagem anthony">
+<h1>Anthony Da Silva Guedes</h1>
+<h2>Profissão</h2>
+<p>atualmente sou estudante de ciência da computação</p>
+<h2>Sobre mim</h2>
+<p>Me chamo arnaldo Varsolindo, sou de Cangaçu, terra nobre e solo sagrado onde nasceu Pedrito meu pai, véio cangacero que caçava pelas alamedas da cidade</p>
+<h2>SOFT SKILL</h2>
+<p>sou parceiro, tranquilo, comunicativo, prestativo e curioso</p>
+<h2>HARD SKILLS</h2>
+<p>conhecimendo em java, com aplicação web, segue anexo do meu
+    <a href="https://github.com/AnthyGuedes" >GITHUB</a>
+</p>
+</body>
+</html>
